@@ -28,9 +28,7 @@ model cannot resolve at global scale.
 ```text
 .
 ├── README.md
-├── LICENSE
 ├── requirements.txt
-├── .gitignore
 ├── Global BSR actual observation dataset.txt
 ├── BSR_negative_points.txt
 ├── Global feature dataset/
