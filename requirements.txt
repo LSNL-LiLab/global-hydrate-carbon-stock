@@ -1,7 +1,19 @@
-numpy==2.4.2
-pandas==2.2.3
-matplotlib==3.10.0
-scikit-learn==1.6.1
-shap==0.48.0
-joblib==1.4.2
-umap-learn==0.5.12
+# Core scientific stack
+numpy>=1.23.5,<2.5.0
+pandas>=2.2,<3.0
+scipy>=1.15,<2.0
+
+# Machine learning
+scikit-learn>=1.6,<2.0
+xgboost>=3.0,<4.0
+lightgbm>=4.6,<5.0
+shap>=0.48,<1.0
+joblib>=1.4,<2.0
+
+# Geospatial I/O
+rasterio>=1.5,<2.0
+rioxarray>=0.23,<1.0
+xarray>=2026.7,<2027.0
+
+# Plotting
+matplotlib>=3.10,<4.0
